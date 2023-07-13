@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/material_dynamic_neutral10">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/e_mechanics254"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/green"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_below="@id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-40dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="20dp"
+                    android:layout_margin="25dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_marginTop="-30dp"
+                        android:layout_width="90dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/diagonistics">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvAbout_us"
+                        android:layout_marginTop="105dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_us"
+                        android:textColor="@color/green"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="30dp"
+                    android:layout_margin="25dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_marginTop="-30dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/services">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvServices"
+                        android:layout_marginTop="105dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/services"
+                        android:textColor="@color/green"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="25dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_marginTop="-30dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/contact">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvContact"
+                        android:layout_marginTop="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CONTACT US"
+                        android:textColor="@color/green"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="25dp"
+                    app:cardElevation="25dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_marginTop="-30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/events">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvEvents"
+                        android:layout_marginTop="105dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/events"
+                        android:textColor="@color/green"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="25dp"
+                    android:layout_margin="25dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-30dp"
+                        android:background="@drawable/reviews">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvReviews"
+                        android:layout_marginTop="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REVIEWS"
+                        android:textColor="@color/green"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="25dp"
+                    android:layout_margin="25dp"
+                    app:cardElevation="30dp"
+                    app:cardBackgroundColor="@color/material_dynamic_secondary30">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="-30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/share">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tvShare"
+                        android:layout_marginTop="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/share"
+                        android:textColor="@color/green"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

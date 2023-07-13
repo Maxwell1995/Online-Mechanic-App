@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="LOG IN HERE"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/enter_your_email"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_weight="0"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="@string/enter_password"/>
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:backgroundTint="@color/pink"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/tvAlready"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/don_t_have_an_account_yet" />
+
+        <TextView
+            android:id="@+id/mtvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_weight="0"
+            android:text="Register Here"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

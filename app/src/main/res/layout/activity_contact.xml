@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="ContactActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/material_dynamic_primary90"
+        android:text="@string/contact_us"
+        android:textColor="@color/material_dynamic_primary20"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/lay_out_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/material_dynamic_neutral_variant30"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>
